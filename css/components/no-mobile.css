@@ -11,6 +11,12 @@
   top: 0;
 }
 
+#no-mobile img {
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+}
+
 @media screen and (max-width: 645px) {
   #no-mobile {
     display: none;

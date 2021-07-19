@@ -1,6 +1,6 @@
 .user-component {
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .user-component,
@@ -22,7 +22,7 @@
 }
 
 .user-component__subtitle {
-  margin-top: 8px;
+  margin-top: 12px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -55,6 +55,33 @@
 }
 
 .user-component-chats {
-  border-bottom: var(--main-border);
-  padding: 20px 0;
+  padding: 10px 0;
+}
+
+.user-component__music {
+  padding: 10px;
+  border: 2px solid rgb(91, 211, 91);
+  border-radius: 30px;
+}
+
+.user-component__music i {
+  margin-left: 5px;
+}
+
+.user-component__group {
+  position: relative;
+  margin-right: 20px;
+}
+
+.user-component__group-1,
+.user-component__group-2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.user-component__group-2 {
+  position: absolute;
+  left: 30px;
+  bottom: -20px;
 }
