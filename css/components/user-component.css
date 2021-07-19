@@ -53,3 +53,8 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component-chats {
+  border-bottom: var(--main-border);
+  padding: 20px 0;
+}
